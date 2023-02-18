@@ -20,9 +20,9 @@ function submitForm(evt) {
     memesId += 1;
     memes[memesId] = meme;
     appendMeme(meme);
-    urlInput.value = "";
-    textTopInput.value = "";
-    textBottomInput.value = "";
+    // urlInput.value = "";
+    // textTopInput.value = "";
+    // textBottomInput.value = "";
   }
 }
 
