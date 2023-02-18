@@ -66,7 +66,6 @@ function appendElementsMeme(meme, newMeme) {
 //delete meme function
 function deleteMeme(e) {
   let memeId = e.target.parentElement.id;
-  console.log(memeId, memes);
 
   let memeDivs = Array.from(document.querySelectorAll("#memes div"));
   for (let meme of memeDivs) {
